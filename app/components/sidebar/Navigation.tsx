@@ -112,7 +112,7 @@ const Navigation = () => {
               <div className={styles.iconDotContainer} ref={dashboardLink}>
                 <div className={styles.dot}></div>
 
-                <FiHome size="20px"/>
+                <FiHome size="20px" className={styles.transition}/>
               </div>
 
               Dashboard
@@ -127,7 +127,7 @@ const Navigation = () => {
               <div className={styles.iconDotContainer} ref={exploreLink}>
                 <div className={styles.dot}></div>
 
-                <GrAppsRounded size="20px"/>
+                <GrAppsRounded size="20px" className={styles.transition}/>
               </div>
 
               Explore city
@@ -142,7 +142,7 @@ const Navigation = () => {
               <div className={styles.iconDotContainer} ref={ticketLink}>
                 <div className={styles.dot}></div>
 
-                <LuMail size="20px"/>
+                <LuMail size="20px" className={styles.transition}/>
               </div>
 
               Ticket
@@ -157,7 +157,7 @@ const Navigation = () => {
               <div className={styles.iconDotContainer} ref={favoritesLink}>
                 <div className={styles.dot}></div>
 
-                <RxHeart size="20px"/>
+                <RxHeart size="20px" className={styles.transition}/>
               </div>
 
               Favorites
@@ -172,7 +172,7 @@ const Navigation = () => {
               <div className={styles.iconDotContainer} ref={settingsLink}>
                 <div className={styles.dot}></div>
 
-                <LuSettings size="20px"/>
+                <LuSettings className={styles.transition} size="20px"/>
               </div>
 
               Setting

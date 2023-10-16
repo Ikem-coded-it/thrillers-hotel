@@ -103,6 +103,14 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-color: var(--blue);
+  color: var(--light-bg);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

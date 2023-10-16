@@ -44,6 +44,11 @@
   width: 4px;
   background-color: transparent;
   border-radius: 50%;
+  transition: all .5s ease;
+}
+
+.transition {
+  transition: all .5s ease;
 }
 
 .active {

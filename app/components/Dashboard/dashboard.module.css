@@ -1,4 +1,5 @@
 .dashboardContainer {
   flex: 3;
   background-color: var(--dark-bg);
+  padding-left: 15px;
 }

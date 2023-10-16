@@ -1,0 +1,143 @@
+
+.searchbarPic {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid black;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.searchbarContainer {
+  height: 65px;
+  border-radius: 25px;
+  width: 100%;
+  background-color: var(--light-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.searchInputContainer {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--light-font);
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.searchInputContainer > input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: 0;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 200;
+  background-color: transparent;
+  color: var(--light-font);
+}
+
+.dateNotifContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.dateNotifContainer > p {
+  color: var(--dark-font);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.notifContainer {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.notifRed {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bellContainer {
+  border: 1px solid var(--light-font);
+  border-radius: 10px;
+  padding: 7px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.picNavContainer {
+  position: relative;
+}
+
+.furniturePic {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.searchFilterContainer {
+  height: 65px;
+  border-radius: 25px;
+  width: 90%;
+  position: absolute;
+  padding: 10px;
+  bottom: -45px;
+  left: 5%;
+  background-color: var(--light-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchFilterSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 15px;
+  flex: 2;
+}
+
+.textIconContainer {
+  color: var(--light-font);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  gap: 10px;
+}
+
+.textIconContainerActive {
+  color: var(--dark-font);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  gap: 10px;
+}
+
+.searchBtnContainer {
+  flex: 1;
+}
+
+.searchBtnContainer > button {
+  height: 45px;
+  width: 100px;
+  border-radius: 13px;
+}
