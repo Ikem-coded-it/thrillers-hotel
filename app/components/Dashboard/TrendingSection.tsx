@@ -1,56 +1,16 @@
-import React from 'react';
+'use client'
+
+import React, {useState} from 'react';
 import styles from "./trending.module.css";
 import { PiCaretRightBold, PiCaretLeftBold } from "react-icons/pi";
-import { AiTwotoneStar } from "react-icons/ai";
-import Image, { StaticImageData } from 'next/image';
 import cityImageOne from "../../../public/city/istockphoto-1226494475-612x612.jpg";
 import cityImageTwo from "../../../public/city/istockphoto-1440258328-612x612.jpg";
 import cityImageThree from "../../../public/city/photo-1477959858617-67f85cf4f1df.avif";
+import CityCard from './TrendingCard';
 
-type CityCardProp = {
-  src:StaticImageData,
-  city: string,
-  desc: string,
-  price: string,
-  rating: number,
-  key: number
-}
-
-const CityCard = ({src, city, desc, price, rating}:CityCardProp) => {
-  return(
-    <div className={styles.cityCardContainer}>
-      <Image
-      src={src}
-      alt="city"
-      width={90}
-      height={100}
-      className={styles.cityImage}
-      loading="lazy"
-      />
-
-      <div className={styles.writingContainer}>
-
-        <div className={styles.titleRatingContainer}>
-          <h3 className={styles.title}>{city}</h3>
-          <div className={styles.ratingContainer}>
-            <AiTwotoneStar color="gold" size="17px"/>
-            {rating}/5
-          </div>
-        </div>
-
-        <p className={styles.desc}>
-          {desc}
-        </p>
-
-        <p className={styles.price}>
-          {price}
-        </p>
-      </div>
-    </div>
-  )
-}
 
 const TrendingSection = () => {
+
   return (
     <section className={styles.trendingContainer}>
       <div className={styles.trendingBtnContainer}>

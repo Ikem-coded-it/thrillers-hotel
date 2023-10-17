@@ -1,0 +1,83 @@
+.bestOffersContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.titleViewContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.titleViewContainer h2 {
+  color: var(--mid-font);
+  font-weight: 400;
+}
+
+.sliderContainer {
+  height: fit-content;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.sliderContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.cardsContainer {
+  min-width: fit-content;
+  max-width: fit-content;
+  height: fit-content;
+  gap: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.offerCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 12px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 15px;
+  background-color: var(--light-bg);
+  padding: 10px;
+}
+
+.offerCardContainer img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.offerCardContainer h3 {
+  color: var(--mid-font);
+  font-size: 13px;
+}
+
+.offerCardContainer > div {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.offerCardContainer p {
+  color: var(--light-font);
+  font-size: 12px;
+  width: 100%;
+}
+
+.offerCardContainer span {
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 400;
+}

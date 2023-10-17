@@ -5,7 +5,4 @@
   max-width: 1500px;
   min-width: 99.8vw;
   background-color: var(--dark-bg);
-  overflow-y: scroll;
-  overflow-x: hidden;
-  scrollbar-gutter: stable;
 }
