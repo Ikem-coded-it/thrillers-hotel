@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from "./mima.module.css";
-import girlImage from "../../../public/girl.avif";
+import girlImage from "../../../public/istockphoto-1278976856-612x612.jpg";
 import { TbEdit } from "react-icons/tb";
 
 const MimaBooking = () => {
