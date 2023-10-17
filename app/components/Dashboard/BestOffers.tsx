@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from "./bestOffers.module.css";
-import room1 from "../../../public/room/photo-1566195992011-5f6b21e539aa.avif";
-import room2 from "../../../public/room/photo-1582719478250-c89cae4dc85b.avif";
-import room3 from "../../../public/room/photo-1611892440504-42a792e24d32.avif";
-import room4 from "../../../public/room/photo-1618773928121-c32242e63f39.avif";
-import room5 from "../../../public/room/premium_photo-1670360414903-19e5832f8bc4.avif";
+import room1 from "../../../public/room/360_F_271082810_CtbTjpnOU3vx43ngAKqpCPUBx25udBrg.jpg";
+import room2 from "../../../public/room/download.jpg";
+import room3 from "../../../public/room/lovepik-hotel-room-picture_500530786.jpg";
+import room4 from "../../../public/room/pexels-pixabay-164595.jpg";
+import room5 from "../../../public/room/photo-1631049307264-da0ec9d70304.jpg";
 import Image, { StaticImageData } from 'next/image';
 import { GoLocation } from "react-icons/go";
 

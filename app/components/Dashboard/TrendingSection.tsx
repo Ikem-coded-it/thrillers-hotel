@@ -1,11 +1,11 @@
 'use client'
 
-import React, {useState} from 'react';
+import React from 'react';
 import styles from "./trending.module.css";
 import { PiCaretRightBold, PiCaretLeftBold } from "react-icons/pi";
 import cityImageOne from "../../../public/city/istockphoto-1226494475-612x612.jpg";
 import cityImageTwo from "../../../public/city/istockphoto-1440258328-612x612.jpg";
-import cityImageThree from "../../../public/city/photo-1477959858617-67f85cf4f1df.avif";
+import cityImageThree from "../../../public/city/photo-1480714378408-67cf0d13bc1b.jpg";
 import CityCard from './TrendingCard';
 
 
