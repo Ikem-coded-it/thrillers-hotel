@@ -1,6 +1,6 @@
 import styles from "./searchbarPic.module.css";
 import Image from 'next/image';
-import furniturePic from "../../../public/search/furniture.avif";
+import furniturePic from "../../../public/search/istockphoto-1212526330-612x612.jpg";
 import { FaSearch } from "react-icons/fa";
 import { BiBell } from "react-icons/bi";
 import { PiCaretDownBold } from "react-icons/pi";
